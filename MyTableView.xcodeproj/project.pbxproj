@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1A59877E236BD90200326696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59877D236BD90200326696 /* AppDelegate.swift */; };
-		1A598780236BD90200326696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59877F236BD90200326696 /* ViewController.swift */; };
 		1A598783236BD90200326696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A598781236BD90200326696 /* Main.storyboard */; };
 		1A598785236BD90400326696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A598784236BD90400326696 /* Assets.xcassets */; };
 		1A598788236BD90400326696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A598786236BD90400326696 /* LaunchScreen.storyboard */; };
 		1A598793236BD90400326696 /* MyTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A598792236BD90400326696 /* MyTableViewTests.swift */; };
 		1A59879E236BD90400326696 /* MyTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A59879D236BD90400326696 /* MyTableViewUITests.swift */; };
 		1A5987AC236BDB4200326696 /* HardwareItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5987AB236BDB4200326696 /* HardwareItems.swift */; };
+		1A5987AE236BE9A400326696 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5987AD236BE9A400326696 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		1A59877A236BD90200326696 /* MyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A59877D236BD90200326696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A59877F236BD90200326696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A598782236BD90200326696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A598784236BD90400326696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A598787236BD90400326696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		1A59879D236BD90400326696 /* MyTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewUITests.swift; sourceTree = "<group>"; };
 		1A59879F236BD90400326696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A5987AB236BDB4200326696 /* HardwareItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareItems.swift; sourceTree = "<group>"; };
+		1A5987AD236BE9A400326696 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		1A598771236BD90200326696 = {
 			isa = PBXGroup;
 			children = (
+				1A5987AD236BE9A400326696 /* TableViewController.swift */,
 				1A5987AB236BDB4200326696 /* HardwareItems.swift */,
 				1A59877C236BD90200326696 /* MyTableView */,
 				1A598791236BD90400326696 /* MyTableViewTests */,
@@ -101,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				1A59877D236BD90200326696 /* AppDelegate.swift */,
-				1A59877F236BD90200326696 /* ViewController.swift */,
 				1A598781236BD90200326696 /* Main.storyboard */,
 				1A598784236BD90400326696 /* Assets.xcassets */,
 				1A598786236BD90400326696 /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A598780236BD90200326696 /* ViewController.swift in Sources */,
 				1A59877E236BD90200326696 /* AppDelegate.swift in Sources */,
+				1A5987AE236BE9A400326696 /* TableViewController.swift in Sources */,
 				1A5987AC236BDB4200326696 /* HardwareItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
